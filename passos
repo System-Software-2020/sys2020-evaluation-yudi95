@@ -1,0 +1,9 @@
+Para rodar o ex1.c fiz o seguinte:
+
+gcc -m32 ex1.c -c -o ex1.o
+
+gcc -m32 ex1.o -o ex1
+
+./ex1
+
+escreve Hello.
