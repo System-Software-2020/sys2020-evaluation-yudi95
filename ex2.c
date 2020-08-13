@@ -1,8 +1,7 @@
 #include <unistd.h>
-#include "foo.h"
 // ex 3
 
-int foo() {
-    write(1, "hello\n", 6);
+ssize_t write_2(int fd, const void *s, size_t n) {
+    write(fd, s, n);
     return 0;
 }

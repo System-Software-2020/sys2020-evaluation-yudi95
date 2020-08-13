@@ -1,8 +1,10 @@
-#include <unistd.h>
-
+#include "ex2.h"
+// #include <unistd.h>
 // ex 2
 
 int main() {
-    syscall(4, 1, "hello\n", 6);
+    const char *s = "Hello\n";
+
+    write_2(1, s, 6);
     return 0;
 }

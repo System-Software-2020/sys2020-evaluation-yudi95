@@ -1,6 +1,8 @@
-#ifndef FOO_H
-#define FOO_H
+#ifndef EX2_H
+#define EX2_H
 
-int foo();
+#include <sys/types.h>
+
+ssize_t write_2 (int, const void *, size_t);
 
 #endif
